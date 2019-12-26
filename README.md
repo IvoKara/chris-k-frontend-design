@@ -1,4 +1,5 @@
-# Visual representation and ideas for Chris K. Photograpy website 
+# Chris K. Photography FrontEnd
+Visual representation and ideas for Chris K. Photograpy website.
 
 
 ### This website is built in pure HTML and CSS, plus additional Bootstrap
