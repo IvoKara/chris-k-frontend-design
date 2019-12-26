@@ -1,0 +1,70 @@
+﻿div.parallax {
+    height: 100vh;
+    width: 100%;    
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+}
+
+div.img0 {
+    background-image: url("../images/FrameLandscape.jpg");    
+    background-position-y: 50%;
+    background-position-x: center;
+}
+
+div.img1 {
+    background-image: url("../images/BgImageCat.jpg");
+    background-position-y: 94%;
+    background-position-x: center;
+}
+
+div.img2 {
+    background-image: url("../images/Camera.jpg");
+    background-position-y: 45%;
+    background-position-x: center;
+}
+
+.heading-font{
+    font-size: 80px;
+}
+
+.main-text
+{
+    text-align: center; 
+    position: absolute;
+    top: 68vh;
+    width: 100%;    
+}
+
+ span.brand-name {
+    margin-bottom: 0px;
+    margin-left: 2.15%;
+}
+
+@media screen and (max-width: 700px) {
+    .heading-font{font-size: 60px;}
+
+}
+
+@media screen and (max-width: 500px) {
+    .heading-font{font-size: 40px;}
+
+}
+
+p.subtitle {
+    color: rgb(17, 17, 2);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin-top: 0px;
+}
+
+@media screen and (max-width: 350px) {
+    p.subtitle {
+        color: rgb(17, 17, 2);
+        font-family: 'Montserrat', sans-serif;
+        font-size: 13px;
+        margin-top: 0px;
+    }
+        
+}
